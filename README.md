@@ -1,3 +1,7 @@
+
+Enhancing the USDA Hardiness Model via Hourly NOAA Data Analysis:
+
+
 Data analysis utilizing hourly temperatures at NOAA weather stations throughout the US.  Hourly resolution is required to improve the hardiness zone model developed by the USDA.
 
 Text files provided on the NOAA ftp have a wealth of information related to weather conditions and are saved per year and zipped each year in a cumulative archive (i.e. every previous year is included in the current zip file).  The latest complete record unzips to more than 4GB of text files and includes years 2000-2017.  This project used the entire dataset, filtered to 2007-2017 to ensure a large number of stations, and also removed AK data to simplify the overall analysis.
