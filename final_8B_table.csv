@@ -1,0 +1,12 @@
+,City,Total Freeze Time (mean),Total Freeze Time (stdev),Max Extended Freeze Time (mean),Max Extended Freeze Time (stdev),Min Temperature (mean),Min Temperature (stdev),Number of Extended Freezes (mean),Number of Extended Freezes (stdev)
+0,AL_Fairhope_3_NE,151.0,97.0,17.0,9.0,19.0,3.0,19.0,10.0
+1,GA_Newton_11_SW,144.0,92.0,15.0,7.0,20.0,3.0,18.0,10.0
+2,GA_Newton_8_W,225.0,103.0,16.0,7.0,18.0,3.0,27.0,10.0
+3,LA_Monroe_26_N,441.0,106.0,33.0,15.0,16.0,3.0,42.0,8.0
+4,NV_Mercury_3_SSW,223.0,98.0,21.0,14.0,19.0,3.0,27.0,10.0
+5,OR_Corvallis_10_SSW,387.0,172.0,69.0,51.0,16.0,6.0,31.0,11.0
+6,SC_McClellanville_7_NE,116.0,83.0,19.0,12.0,22.0,4.0,12.0,7.0
+7,TX_Austin_33_NW,146.0,88.0,43.0,19.0,18.0,4.0,11.0,5.0
+8,TX_Palestine_6_WNW,170.0,70.0,32.0,23.0,18.0,4.0,18.0,5.0
+9,TX_Panther_Junction_2_N,153.0,72.0,29.0,17.0,19.0,5.0,17.0,6.0
+10,WA_Quinault_4_NE,407.0,183.0,44.0,29.0,21.0,3.0,35.0,15.0

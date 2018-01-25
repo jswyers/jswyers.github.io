@@ -1,48 +1,131 @@
 <!DOCTYPE html>
-<html lang="en-us">
-<head>
-  <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
-</head>
 
-<body>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://getbootstrap.com/favicon.ico">
+	<link rel="stylesheet" href="style.css">
+	
+	
+    <title>Hardiness Zone Analysis</title>
+	
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	
+	
 
-  <h1>Your Name</h1>
+    <!-- Bootstrap core CSS -->
+    <link href="./Jumbotron Template for Bootstrap_files/bootstrap.min.css" rel="stylesheet">
 
-  <img src="https://placehold.it/200x200" alt="Your Name">
+    <!-- Custom styles for this template -->
+    <link href="./Jumbotron Template for Bootstrap_files/jumbotron.css" rel="stylesheet">
+  <link rel="stylesheet" id="coToolbarStyle" href="chrome-extension://cjabmdjcfcfdmffimndhafhblfmpjdpe/toolbar/styles/placeholder.css" type="text/css"><script type="text/javascript" id="cosymantecbfw_removeToolbar">(function () {				var toolbarElement = {},					parent = {},					interval = 0,					retryCount = 0,					isRemoved = false;				if (window.location.protocol === 'file:') {					interval = window.setInterval(function () {						toolbarElement = document.getElementById('coFrameDiv');						if (toolbarElement) {							parent = toolbarElement.parentNode;							if (parent) {								parent.removeChild(toolbarElement);								isRemoved = true;								if (document.body && document.body.style) {									document.body.style.setProperty('margin-top', '0px', 'important');								}							}						}						retryCount += 1;						if (retryCount > 10 || isRemoved) {							window.clearInterval(interval);						}					}, 10);				}			})();</script></head>
 
-  <p>Write a short paragraph about yourself or some placeholder text.</p>
-  <p>A second short paragraph about yourself or some placeholder text.</p>
+  <body cz-shortcut-listen="true">
 
-  <ul>
-    <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
-    <li><strong>Github:</strong> <a href="#">sampleName</a></li>
-    <li><strong>Twitter:</strong> <a href="#">coming soon</a></li>
-  </ul>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      
+      <div id="navbarsExampleDefault"  class = "col-xs-12 col-md-6">
+        <ul   class="navbar-nav mr-auto">
+          <li class = "col-xs-12 col-md-3" class="nav-item active">
+            <a class="nav-link" href="index.html">Plant Hardiness Zone Drilldown<span class="sr-only">(current)</span></a>
+          </li>
+          <li class = "col-xs-12 col-md-3" class="nav-item">
+            <a class="nav-link" href="comp.html">Comparisons</a>
+          </li>
+          <li class = "col-xs-12 col-md-3" class="nav-item">
+            <a class="nav-link" href="table.html">Data Table</a>
+          </li>
+		  <li class = "col-xs-12 col-md-3" class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle"  href="comp.html" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="maxfr.html">Annual Maximum Extended Freeze</a>
+              <a class="dropdown-item" href="cumfr.html">Annual Cumulative Freeze Time</a>
+              <a class="dropdown-item" href="mintemp.html">Absolute Minimum Temperature</a>
+			  <a class="dropdown-item" href="extended.html">Extended Freeze Events</a>
+            </div>
+          </li>
+		  </ul>
+		 </nav>  
+          
+        
+      
+	  
+    
 
-  <table>
-    <tr>
-      <th>Books</th>
-      <th>Movies</th>
-      <th>Games</th>
-    </tr>
-    <tr>
-      <td>The Hobbit</td>
-      <td>Hot Fuzz</td>
-      <td>Dark Souls</td>
-    </tr>
-    <tr>
-      <td>The Name of the Wind</td>
-      <td>The Avengers</td>
-      <td>The Last of Us</td>
-    </tr>
-    <tr>
-      <td>The Girl With All the Gifts</td>
-      <td>The Matrix</td>
-      <td>Dragon Age: Origins</td>
-    </tr>
-  </table>
+    <main role="main">
 
-</body>
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class="container">
+          <h2 class="display-3" style ="margin-top: 70px">Plant Hardiness Zone Drilldown</h2>
+          
+			<div class="row">
+				
+				<div class="col-6">
+					<h4 style="padding:20%">USDA Hardiness Zones based on absolute minimum temperature have limited value in selecting appropriate species for a location.</h4>
+					
+					
+				</div>
+				<div class="col-6">
+					<img src="All_states_halfzones_poster.jpg"   style= "padding:10%" class="img-fluid" alt="Responsive image">
+				</div>
+				<div class="col-12">
+					<h5>This analysis uses <em>hourly</em> logged temperature to better understand what conditions are typical for a particular region. 
+					This site will ultimately evolve into an interactive app allowing the user to query by nearest station to customize the analysis.
+					For now, a quick examination of Zone 8B is included.
+					</h5>
+				</div>	
+			</div>
+				
+			
+			
+			
+			
+		  <p><a class="btn btn-primary btn-lg" href="https://getbootstrap.com/docs/4.0/examples/jumbotron/#" role="button">Learn more »</a></p>
+        </div>
+      </div>
 
-</html>
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Number of Extended Freezes</h2>
+            <p class="analysis">Number of weather events where the temperature drops below freezing for more than a couple of hours. </p>
+			<img src="qwa_2011_min.png" alt="..." class="img-thumbnail">
+            <p class = "detail_but"><a class="btn btn-secondary" href="extended.html" role="button">View details »</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Maximum Extended Freeze</h2>
+            <p class="analysis">Longest continuous period below freezing for the year. </p>
+			<img src="atx_2011_min.png" alt="..." class="img-thumbnail">
+            <p class = "detail_but"><a class="btn btn-secondary" href="maxfr.html" role="button">View details »</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Annual Cumulative Freeze Time</h2>
+            <p class="analysis">Total time below freezing for the year.</p>
+			<img src="atx_2011.png" alt="..." class="img-thumbnail">
+            <p class = "detail_but"><a class="btn btn-secondary" href="cumfr.html" role="button">View details »</a></p>
+          </div>
+        </div>
+
+        <hr>
+
+      </div> <!-- /container -->
+
+    </main>
+
+    <footer class="container">
+      <p>© John Swyers</p>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	
+</body><div id="coFrameDiv" style="height:0px;display:none;"><iframe id="coToolbarFrame" src="./Jumbotron Template for Bootstrap_files/placeholder.html" style="height:0px;width:100%;display:none;"></iframe></div></html>

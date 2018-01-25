@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)https://getbootstrap.com/docs/4.0/examples/offcanvas/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://getbootstrap.com/favicon.ico">
+
+    <title>Hardiness Zone Analysis</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./Off Canvas Template for Bootstrap_files/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./Off Canvas Template for Bootstrap_files/offcanvas.css" rel="stylesheet">
+  <link rel="stylesheet" id="coToolbarStyle" href="chrome-extension://cjabmdjcfcfdmffimndhafhblfmpjdpe/toolbar/styles/placeholder.css" type="text/css"><script type="text/javascript" id="cosymantecbfw_removeToolbar">(function () {				var toolbarElement = {},					parent = {},					interval = 0,					retryCount = 0,					isRemoved = false;				if (window.location.protocol === 'file:') {					interval = window.setInterval(function () {						toolbarElement = document.getElementById('coFrameDiv');						if (toolbarElement) {							parent = toolbarElement.parentNode;							if (parent) {								parent.removeChild(toolbarElement);								isRemoved = true;								if (document.body && document.body.style) {									document.body.style.setProperty('margin-top', '0px', 'important');								}							}						}						retryCount += 1;						if (retryCount > 10 || isRemoved) {							window.clearInterval(interval);						}					}, 10);				}			})();</script></head>
+
+  <body cz-shortcut-listen="true">
+
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+      <a class="navbar-brand" href="https://getbootstrap.com/docs/4.0/examples/offcanvas/#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="https://getbootstrap.com/docs/4.0/examples/offcanvas/#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://getbootstrap.com/docs/4.0/examples/offcanvas/#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="https://getbootstrap.com/docs/4.0/examples/offcanvas/#">Disabled</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com/" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="https://getbootstrap.com/docs/4.0/examples/offcanvas/#">Action</a>
+              <a class="dropdown-item" href="https://getbootstrap.com/docs/4.0/examples/offcanvas/#">Another action</a>
+              <a class="dropdown-item" href="https://getbootstrap.com/docs/4.0/examples/offcanvas/#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <main role="main" class="container">
+
+      <div class="row row-offcanvas row-offcanvas-right">
+
+        <div class="col-12 col-md-9">
+          <p class="float-right d-md-none">
+            <button type="button" class="btn btn-primary btn-sm" data-toggle="offcanvas">Toggle nav</button>
+          </p>
+          <div class="jumbotron">
+            <h1>Plant hardiness zones reconsidered!</h1>
+            <p>Moving beyond standard USDA hardiness maps to better understand typical conditions in US locations.</p>
+			
+			<div style="width:50%;height:0;padding-bottom:30%;position:relative;">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://giphy.com/embed/cFi7hxtZKgXDy" allowfullscreen></iframe>
+					<img src="All_states_halfzones_poster_300dpi.jpg" class="img-fluid" alt="Responsive image">
+				</div>
+				<!--<iframe src="https://giphy.com/embed/cFi7hxtZKgXDy" width="70%" height="70%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+			-->		
+			
+			
+				<p>Zone designations based on absolute minimum temperature don't provide sufficient information for plant species survival probabilities for a particular region.  Hourly trends and total time below thresholds can be important factors in selecting species for cultivation.</p>
+			
+			<!--</div><p><a href="https://giphy.com/gifs/messy-cFi7hxtZKgXDy">via GIPHY</a></p>-->
+			
+			
+			</div>
+			</div>
+          <div class="row">
+            <div class="col-6 col-lg-4">
+              <h2>Number of Extended Freezes</h2>
+              <p>Number of weather events where the temperature drops below freezing for more than a couple of hours. </p>
+              <p><a class="btn btn-secondary" href="https://getbootstrap.com/docs/4.0/examples/offcanvas/#" role="button">View details »</a></p>
+            </div><!--/span-->
+            <div class="col-6 col-lg-4">
+              <h2>Maximum Extended Freeze</h2>
+              <p>Longest continuous period below freezing for the year. </p>
+              <p><a class="btn btn-secondary" href="https://getbootstrap.com/docs/4.0/examples/offcanvas/#" role="button">View details »</a></p>
+            </div><!--/span-->
+            <div class="col-6 col-lg-4">
+              <h2>Cumulative Freeze Time</h2>
+              <p>Total time below freezing for the year. </p>
+              <p><a class="btn btn-secondary" href="https://getbootstrap.com/docs/4.0/examples/offcanvas/#" role="button">View details »</a></p>
+            </div><!--/span-->
+            <div class="col-6 col-lg-4">
+              <h2>Shock Events</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn btn-secondary" href="https://getbootstrap.com/docs/4.0/examples/offcanvas/#" role="button">View details »</a></p>
+            </div><!--/span-->
+            <div class="col-6 col-lg-4">
+              <h2>Comparisons</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn btn-secondary" href="https://getbootstrap.com/docs/4.0/examples/offcanvas/#" role="button">View details »</a></p>
+            </div><!--/span-->
+            <div class="col-6 col-lg-4">
+              <h2>Table</h2>
+              <p>Tabulated results for the 8B Sites that had at least ten years of data.</p>
+              <p><a class="btn btn-secondary" href="https://getbootstrap.com/docs/4.0/examples/offcanvas/#" role="button">View details »</a></p>
+            </div><!--/span-->
+          </div><!--/row-->
+        </div><!--/span-->
+
+        <div class="col-6 col-md-3 sidebar-offcanvas" id="sidebar">
+          <div class="list-group">
+            <a href="https://getbootstrap.com/docs/4.0/examples/offcanvas/#" class="list-group-item active">Link</a>
+            <a href="https://getbootstrap.com/docs/4.0/examples/offcanvas/#" class="list-group-item">Link</a>
+            <a href="https://getbootstrap.com/docs/4.0/examples/offcanvas/#" class="list-group-item">Link</a>
+            <a href="https://getbootstrap.com/docs/4.0/examples/offcanvas/#" class="list-group-item">Link</a>
+            <a href="https://getbootstrap.com/docs/4.0/examples/offcanvas/#" class="list-group-item">Link</a>
+            <a href="https://getbootstrap.com/docs/4.0/examples/offcanvas/#" class="list-group-item">Link</a>
+            <a href="https://getbootstrap.com/docs/4.0/examples/offcanvas/#" class="list-group-item">Link</a>
+            <a href="https://getbootstrap.com/docs/4.0/examples/offcanvas/#" class="list-group-item">Link</a>
+            <a href="https://getbootstrap.com/docs/4.0/examples/offcanvas/#" class="list-group-item">Link</a>
+            <a href="https://getbootstrap.com/docs/4.0/examples/offcanvas/#" class="list-group-item">Link</a>
+          </div>
+        </div><!--/span-->
+      </div><!--/row-->
+
+      <hr>
+
+    </main><!--/.container-->
+
+    <footer>
+      <p>© John Swyers 2018</p>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./Off Canvas Template for Bootstrap_files/jquery-3.2.1.slim.min.js.download" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="./Off Canvas Template for Bootstrap_files/popper.min.js.download"></script>
+    <script src="./Off Canvas Template for Bootstrap_files/bootstrap.min.js.download"></script>
+    <script src="./Off Canvas Template for Bootstrap_files/offcanvas.js.download"></script>
+  
+
+</body><div id="coFrameDiv" style="height:0px;display:none;"><iframe id="coToolbarFrame" src="./Off Canvas Template for Bootstrap_files/placeholder.html" style="height: 0px; width: 100%; display: none;"></iframe></div></html>
